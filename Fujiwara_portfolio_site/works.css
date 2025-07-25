@@ -1,0 +1,147 @@
+* {
+    border:solid red 1px;
+}
+
+html, body {
+    font-family: 'Noto Sans JP', 'Hiragino Sans';
+    font-size:15px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    color: #000000;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    padding:0;
+    margin:0;
+
+}
+/* HEADER_CSS */
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 80px auto;
+    width: 1100px;
+}
+
+.logo_container {
+    display:block;
+    width:135px;
+    height: 93px;
+}
+.logo_image {
+    max-width: 100%;
+    vertical-align: top;
+    border:0;
+    width:300px;
+    padding: 0;
+}
+.logo_text {
+    margin: 15px 0px 0px 0px;
+    height: 30px;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    height:35px;
+    gap:40px;
+}
+.nav_menu {
+    margin: 0;
+    padding: 0;
+}
+.nav_lang {
+    margin: 0;
+    padding: 0;
+    gap:1px
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+   
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    margin:0;
+}
+.insta {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+/* BODY_CSS */
+
+.page_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page_content {
+    display: block;
+}
+.content_main {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    width:995px;
+    margin-top:0;
+    margin-bottom: 50px;
+}
+
+.cat_wrapper {
+    width: fit-content;
+}
+h2 {
+     font-weight: 300;
+     display: flex;
+     justify-content: space-between;
+}
+
+.cat_text::after {
+        content: "→";
+    margin-left: 10px;
+}
+
+
+/* FOOTER_CSS */
+
+.footer {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_container {
+    display:flex;
+    justify-content: space-between;
+    padding: 0px;
+    gap:300px;
+    margin-top: 150px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 1000px;
+   
+}
+
+.grant {
+    margin: 0;
+    padding: 0;
+}
+.copyright {
+    margin: 0;
+    padding: 0;
+}
