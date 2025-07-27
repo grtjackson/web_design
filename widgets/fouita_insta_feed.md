@@ -27,7 +27,8 @@ Paste the embed code into your website’s HTML where you want the Instagram fee
 
 Here’s what the embed code looks like:
 
-`<div id="ft-insta-app"></div>
+```
+<div id="ft-insta-app"></div>
 <script type="module">
     import App from "https://cdn.fouita.com/public/instagram-feed.js"; 
     new App({ 
@@ -49,5 +50,7 @@ Here’s what the embed code looks like:
             }
          }
     });
-</script>`
+</script>
+```
+
 
