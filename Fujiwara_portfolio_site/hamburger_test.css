@@ -122,7 +122,9 @@ a {
   width: 100%;
   margin: 0;
   padding: 10px 0;
-  font: 700 20px 
+  font: 700 20px ;
+  display: flex;
+  align-items: center;
 }
 
 .link1:hover {
@@ -130,4 +132,12 @@ a {
   color: rgb(61, 61, 61);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.link1::after {
+    content: "⟶";
+    margin-left: auto;
+    margin-right:60px;
+    color: grey;
+    
 }
